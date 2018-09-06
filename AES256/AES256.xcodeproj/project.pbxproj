@@ -116,7 +116,7 @@
 		0A3F4E6321411DF4002958B1 /* AES256 */ = {
 			isa = PBXGroup;
 			children = (
-				0A3F4E9721411E72002958B1 /* AES265 */,
+				0A3F4E9721411E72002958B1 /* AES_256 */,
 				0A3F4E6421411DF4002958B1 /* AppDelegate.h */,
 				0A3F4E6521411DF4002958B1 /* AppDelegate.m */,
 				0A3F4E6721411DF4002958B1 /* ViewController.h */,
@@ -148,7 +148,7 @@
 			path = AES256UITests;
 			sourceTree = "<group>";
 		};
-		0A3F4E9721411E72002958B1 /* AES265 */ = {
+		0A3F4E9721411E72002958B1 /* AES_256 */ = {
 			isa = PBXGroup;
 			children = (
 				0A3F4ED721411FCD002958B1 /* GTMBase64.h */,
@@ -159,7 +159,7 @@
 				0A3F4E9C21411E72002958B1 /* AES256.h */,
 				0A3F4E9A21411E72002958B1 /* AES256.m */,
 			);
-			path = AES265;
+			path = AES_256;
 			sourceTree = "<group>";
 		};
 		0A3F4EDB2141214E002958B1 /* Frameworks */ = {

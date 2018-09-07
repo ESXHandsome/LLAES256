@@ -8,7 +8,6 @@
 
 #import "NSData+AES256.h"
 #import <CommonCrypto/CommonCryptor.h>
-#import "GTMBase64.h"
 
 #define key @"lHJe3W8JePELoWVLjz7mt+tkG/Q58IrXeF/V/DQWlH0="
 #define iv @"1234567890123456"
@@ -17,7 +16,7 @@
 
 - (NSData *) cryptOperation:(CCOperation)operation
 {
-    NSData *keyData = [GTMBase64 decodeString:key];
+    NSData *keyData = [[NSData alloc] initWithBase64EncodedString:key options:NSDataBase64DecodingIgnoreUnknownCharacters];
     
     NSUInteger dataLength = [self length];
     size_t bufferSize = dataLength + kCCBlockSizeAES128;

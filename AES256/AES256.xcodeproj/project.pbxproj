@@ -17,7 +17,6 @@
 		0A3F4E8921411DF5002958B1 /* AES256UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3F4E8821411DF5002958B1 /* AES256UITests.m */; };
 		0A3F4E9F21411E72002958B1 /* NSData+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3F4E9821411E72002958B1 /* NSData+AES256.m */; };
 		0A3F4EA021411E72002958B1 /* AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3F4E9A21411E72002958B1 /* AES256.m */; };
-		0A3F4EDA21411FCD002958B1 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3F4ED821411FCD002958B1 /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		0A3F4EDF21412177002958B1 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3F4EDE21412177002958B1 /* libc++.tbd */; };
 /* End PBXBuildFile section */
 
@@ -59,9 +58,6 @@
 		0A3F4E9A21411E72002958B1 /* AES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AES256.m; sourceTree = "<group>"; };
 		0A3F4E9B21411E72002958B1 /* NSData+AES256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES256.h"; sourceTree = "<group>"; };
 		0A3F4E9C21411E72002958B1 /* AES256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AES256.h; sourceTree = "<group>"; };
-		0A3F4ED721411FCD002958B1 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
-		0A3F4ED821411FCD002958B1 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
-		0A3F4ED921411FCD002958B1 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
 		0A3F4EDC2141214F002958B1 /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
 		0A3F4EDE21412177002958B1 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -151,9 +147,6 @@
 		0A3F4E9721411E72002958B1 /* AES_256 */ = {
 			isa = PBXGroup;
 			children = (
-				0A3F4ED721411FCD002958B1 /* GTMBase64.h */,
-				0A3F4ED821411FCD002958B1 /* GTMBase64.m */,
-				0A3F4ED921411FCD002958B1 /* GTMDefines.h */,
 				0A3F4E9B21411E72002958B1 /* NSData+AES256.h */,
 				0A3F4E9821411E72002958B1 /* NSData+AES256.m */,
 				0A3F4E9C21411E72002958B1 /* AES256.h */,
@@ -302,7 +295,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A3F4E6921411DF4002958B1 /* ViewController.m in Sources */,
-				0A3F4EDA21411FCD002958B1 /* GTMBase64.m in Sources */,
 				0A3F4EA021411E72002958B1 /* AES256.m in Sources */,
 				0A3F4E7421411DF5002958B1 /* main.m in Sources */,
 				0A3F4E9F21411E72002958B1 /* NSData+AES256.m in Sources */,
